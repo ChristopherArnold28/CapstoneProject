@@ -3,7 +3,7 @@ This repository contains all the files for the Coursera Data Science Capstone pr
 
 The only files not included are the raw text files used to build the training data. These files were too large to include in this repository
 
-#Files
+## Files
 - Capstone.R
   This is the script file to work on all the parts of the project locally before commiting them into a report format or into the application
  - NGramModel.R
