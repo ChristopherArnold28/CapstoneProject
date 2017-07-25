@@ -50,7 +50,7 @@ Use of Application
 ***
 - With this application text is entered in the main dialogue box in the middle
 
-- Once a word is finished being typed, 3 predictions will appear below the box with the most predicted word on the left.
+- Once a word is finished being typed, 4 predictions will appear below the box with the most predicted word on top, then the next three below.
 
 - Details with more predicted words are supplied in the "Plots" tab of the application
 

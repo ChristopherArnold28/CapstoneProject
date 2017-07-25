@@ -366,13 +366,14 @@ makeplotNStop <- function(input, wordfiles){
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
-    
+    output$optimalChoice <- renderText({
+        getWord(input$text,1)})
    output$choice1 <- renderText({
-       getWord(input$text,1)})
-   output$choice2 <- renderText({
        getWord(input$text,2)})
-   output$choice3 <- renderText({
+   output$choice2 <- renderText({
        getWord(input$text,3)})
+   output$choice3 <- renderText({
+       getWord(input$text,4)})
    output$withStopWords <- renderPlotly({
     makeplotStop(input$text, wordFiles)
   })
