@@ -57,6 +57,10 @@ Use of Application
 
 Useful Information
 =======================================================
+- Application link: [Text Prediction App](https://chrisrtopher28.shinyapps.io/WordPredictor/)
 
+- GitHub Repository: [Capstone Repo](https://github.com/ChristopherArnold28/CapstoneProject)
+
+- Coursera Capstone: [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science)
 
 
