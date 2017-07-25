@@ -374,7 +374,16 @@ quadgramerror$correctRate
 pentgramerror$correctRate
 hectgramerror$correctRate
 
+correcRate <- c(bigramerror$correctRate, trigramerror$correctRate, quadgramerror$correctRate, pentgramerror$correctRate, hectgramerror$correctRate)
+nGram <- 2:6
 
+performanceRates <- data.frame(nGram, performance = correcRate)
+
+performancePlot <- ggplot(performanceRates, aes(nGram, performance)) + 
+    geom_line(color = "blue", size = 5) + 
+    ggtitle("Percent of Correct Predictions by N-gram size") + 
+    xlab("N-Gram size") + ylab("Percent Correct Predictions") + 
+    geom_label(data = performanceRates, aes(x = nGram, y = performance, label = paste("N-Gram:",nGram, ',', performance*100,"%", sep = " ")))
 
 
 
